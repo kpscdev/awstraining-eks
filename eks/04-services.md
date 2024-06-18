@@ -5,7 +5,7 @@
 
 Pods communicate with each other using services. The service name is the hsot name to be used to communicate with the pods. To provide the person database to other pods, e.g. our person service, we need to expose the pod using a service.
 
-Please review the file `person-db-service.yaml` and appy it using
+Please review the file `person-db-service.yaml` and apply it using
 ```
 kubectl apply -f person-db-service.yaml
 ```
